@@ -1,0 +1,51 @@
+.jumbotron  {
+    background: url('../img/img5.jpg');
+    background-size: 100%;
+    padding-bottom: 10em;
+    min-height: 450px;
+
+}
+
+header {
+    position: sticky;
+    background:rgb(255, 255, 255);
+    top: 0px;
+    width: 100%
+    
+
+  }
+
+body{
+  padding-bottom: 10px;
+  
+}
+
+header {
+  z-index: 9999;
+
+}
+
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+
